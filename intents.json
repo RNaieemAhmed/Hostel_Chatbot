@@ -1,0 +1,395 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag":"dress",
+      "patterns":[
+        "What is the dress code?",
+        "How should I dress",
+        "What should I wear?",
+        "Is it allowed to wear?",
+        "Is there any uniform?",
+        "Is jeans allowed?",
+        "Are chudidhar allowed?",
+        "Is Saree allowed",
+        "Are shirts allowed?",
+        "Is uniform necessary?",
+        "Can I wear anything for college?",
+        "Is baniyan allowed?"
+      ],
+      "responses":[
+        "The dress code for men requires a Shirt or a T-Shirt with collar. Formal pants and formal shoes are necessary.The dress code for women, is formal dress or saree. Avoid Jeans, tight fitting clothes and slippers, some religious accomodations can be made on case by case basis. ID card is compulsory for all"
+      ]
+    },
+    {
+      "tag" : "restrictions",
+      "patterns":[
+        "Is smoking allowed?",
+        "Is drugs allowed?",
+        "Can we bring mobile", 
+        "Can we bring phones",
+        "Can we bring cell phones", 
+        "Can we bring mobiles",
+        "Can we bring laptops?",
+        "Are phones allowed?",
+        "Are mobiles allowed?",
+        "Are headphones allowed?", 
+        "Are earphones allowed?",
+        "Are earphones allowed?"
+      ],
+      "responses":[
+        "While our Institution does not prohibit Electronics if used responsibly we have a strict policy against smoking and drug abuse."
+      ]
+    },
+    {
+      "tag":"culture",
+      "patterns":[
+        "What is the culture of the college?",
+        "do we have freedom in college?",
+        "Is the college strict?"
+      ],
+      "responses":[
+        "Our college encourages freedom and personal discipline. This helps students develop personal responsibilty and help them prepare to be leaders of the future"
+      ]
+    },
+    {
+      "tag": "ragging",
+      "patterns":[
+        "How safe is the college?",
+        "Is there any ragging?",
+        "How is the discipline?",
+        "Are hostel students safe",
+        "Is it safe for women",
+        "is rag allowed?",
+        "Is the college secure?",
+        "Are there any discrimination in campus?",
+        "How are SC ST treated?",
+        "is there any fight in college?",
+        "are teachers strict?"
+      ],
+      "responses":[
+        "We have a very competent security team to keep our campus safe 24/7. We also have a dedicated Anti Ragging Cell,a Discipline committee and an SC,ST Committee to take care of any disciplinary issues and keep our institute inclusive for all. We take extra care to make all women in our campus safe. Access to our college is restricted to only people with an ID."
+      ]
+    },
+    {
+      "tag":"prayer",
+      "patterns":[
+        "Are there facilities for prayer?",
+        "Is there a mosque?",
+        "Is there a temple or church or gurudwara?",
+        "Is it muslim college?",
+        "Is hijab ok",
+        "Is it only for muslims"
+      ],
+      "responses":[
+        "Since we are a minority institution we have a mosque for prayer, but regardless of religion our college is an inclusive place for all people. We can make religious accomodations on a case by case basis"
+      ]
+    },
+    {
+      "tag":"canteen",
+      "patterns":[
+        "What kind of food is available?",
+        "is there canteen in college",
+        "Is there a mess in college?",
+        "Is there vegetarian food in college",
+        "is there non-veg food in college?",
+        "is there non veg food in college?",
+        "is there nonveg food in college?",
+        "is there veg food in  college?",
+        "is there non vegetarian food in college?"
+      ]
+    },
+    {
+      "tag": "Fees",
+      "patterns":[
+        "What are the fees ?",
+        "What is the fee structure",
+        "Can I get Scholarship?",
+        "What is the fees for",
+        "Are student loans provided?",
+        "is loan available ?"
+
+      ],
+      "responses":[
+        "Our college fees and hostel fees vary widely depending on the degree programme and specilization chosen. Please contact our college for fee structure by contacting our representatives. This fees can be reduced by applying or qualifying for scholarships. We have also partnered with various banks to provide student loans at low interest."
+      ]
+    },
+    {
+      "tag":"Faculty",
+      "patterns":[
+        "How is the faculty?",
+        "How are the teachers",
+        "How are the professors?",
+        "How is the staff?",
+        "Are teachers good?"
+      ],
+      "responses":[
+        "Our Faculty and Staff are the best",
+        "We have highly qualified staff with years of experience"
+      ]
+    },
+    {
+      "tag":"cut off",
+      "patterns":[
+        "What is the cutoff marks for entrance ?",
+        "Do I need good marks for admission?",
+        "What is the minimum marks required for admission?",
+        "Do I need 12th marks for admission",
+        "Is there any scholarship available",
+        "Can I get reduced fees?",
+        "Can I get admission on merit?"
+      ],
+      "responses":[
+        "We allow admission on a merit basis and first come first serve basis, so if you have a good cutoff mark or clear our entrance test CIEAT or have good marks in JEE Mains you are not just eligible for admissions but also for scholarship."
+      ]
+    },
+    {
+      "tag": "transport",
+      "patterns" :[
+        "Is there transportation available?",
+        "What is the fees for transportation?",
+        "Are busses available?",
+        "What is the Bus fees?",
+        "Is the bus available for",
+        "What is the bus timing?",
+        "What is the bus pick up time?",
+        "what is the buses",
+        "is there ac in bus?"
+      ],
+      "responses":[
+        "Our college provides A/C bus service to most of the greater Chennai, from Vandalur to Chennai city. All for a modest fee of Rs 50,000 per year. The usual pick up times range from 6:30 am to 8:30 am"
+      ]
+    },
+    {
+      "tag": "identity",
+      "patterns": [
+        "Who are you?",
+        "What are you?",
+        "Can you help me",
+        "Can you do this",
+        "Who built you?",
+        "Who made you?",
+        "Who created you?",
+        "who is your creator?"
+      ],
+      "responses": [
+        "I am Sam, I'm here to answer your questions about our college admission.",
+        "I am Sam, I'm here to help you choose the right degree at the right college",
+        "I am Sam, a chatbot built by Shoukath, Ameen and Luqmaan to help with college admissions"
+      ]
+
+    },
+    {
+      "tag" : "extracurricular",
+      "patterns" :[
+        "What about events?",
+        "What kind of extracurricular activities do you have?",
+        "What sports are available",
+        "What clubs are there?",
+        "How are the competitions",
+        "can I play games in college?",
+        "Is the college fun?",
+        "what can I do for fun?"
+      ],
+      "responses" :[
+        "Our college boasts a rich diversity of extra-curricular activties.We encourage and support all sports, clubs and sports clubs. We hold a multitude of events and competitions each year. Some of our most famous clubs are The literary Society, Crescent Technocrats club and our very new esports club."
+      ]
+    },
+    {
+      "tag": "Degrees",
+      "patterns" : [
+        "What courses offered here?",
+        "What courses are available",
+        "what course?",
+        "What degrees are available here",
+        "What can I study here",
+        "what is available here?"
+      ],
+      "responses" :[
+        "There are many courses available here for Under Graduate degrees, Post Graduate degrees and even research. For more info please click admissions and select the degree of your choice",
+        "Which engineering degree are you interested in? \nFor more info please click admissions and select the degree of your choice",
+        "Some of our most popular degrees are \n 1) B.Tech in IT 2)B.Tech in CSE \n 3)B.Tech in BioTech \n 4)B.Arch for Architecture \nFor more info please click admissions and select the degree of your choice"
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns" : [
+        "How can I apply for admission?",
+        "What is the procedure for admission",
+        "How do I apply for",
+        "What are the steps for admission",
+        "is there an admission form",
+        "how to get admitted?"
+      ],
+      "responses" : [
+        "You first need to register online. The steps for Online Application are: \n\n1)Register\nFill the online registration form\n\n2)Online Application\nComplete the online application \n\n3)Make Payment\nPay through available payment options \n\n4)Preview\nPreview your registration and payment details\nYou must have an account before registering. \n\nYou can apply now by clicking the Apply now button. Alternatively you can visit us at GST Road, Vandalur, Chennai 600 048 Tamilnadu to apply directly.\nFor inquiries regarding admission contact:\n+91 95432 77888\n+91 94990  01725"
+      ]
+    },
+    {
+      "tag":"contact",
+      "patterns" : [
+        "What is the contact number?",
+        "What is the address?",
+        "I want to call a spokesperson",
+        "What is the number for admission?",
+        "Where can I come for admission?",
+        "what is the number?",
+        "who should I call?"
+      ],
+      "responses":[
+        "If you want to talk to someone:For general enquiry you can contact:\n+91 44 2275 1347\n+91 44 2275 9200 \nFor inquiries regarding admission contact:\n+91 95432 77888\n+91 94990  01725\nYou can also visit us at GST Road, Vandalur, Chennai 600 048, Tamilnadu"
+      ]
+    },
+    {
+      "tag": "timings",
+      "patterns" :[
+        "What are the college timings?",
+        "What time is the college?",
+        "When does the college start",
+        "When do I start my year?"
+      ],
+      "responses":[
+        "The regular timings are 9:00 am to 4:30 pm, Our Academic year starts from August 2022 to July 2023"
+      ]
+    },
+    {
+      "tag":"exam",
+      "patterns":[
+        "Is there any entrance exam?",
+        "How I do apply for entrance exam?",
+        "What is CIEAT?",
+        "Do I need to write an exam?",
+        "How to write exam?"
+      ],
+      "responses":[
+        "If you're applying for a B.Tech degree you will have to qualify in the Crescent Institute Engineering Admission Test (CIEAT-2022). Or if you have a valid score in JEE (Main) will be directly selected for admission. \nCIEAT 2022 Phase III, will be conducted through Proctored Online Mode \nDate of Test : 12.07.2022 \nTime: 09.30 a.m. to 12.30 p.m. \nYou can apply from our website directly."
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns":[
+        "Is there any accomadation available?",
+        "Are there rooms available",
+        "How will I stay?",
+        "I'm from a different state",
+        "Is there a hostel facility available?",
+        "Is laundry in hostel?",
+        "Is there gym in hostel?",
+        "Is food provided in hostel?",
+        "is hostel available?"
+      ],
+      "responses":[
+        "We have hostel facilities available with the option of A/C or non A/C rooms and different tiers of sharing starting from 4 sharing upto 2 sharing for both PG and UG students. Please contact our hostel warden to get the fee structue and other details. Food, Laundry, Gym service and Computer access is also available along with accomodation"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! We hope to see you in our college.",
+        "We wish you the very best of luck for your Admissions"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal, GPay, Paytm?",
+        "Are you cash only?",
+        "How to pay fees"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal and any UPI Payment app, We also have a flexible payment structure",
+        "We accept most major credit cards, and Paypal"
+      ]
+    }
+
+    ,{
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
